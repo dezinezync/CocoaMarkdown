@@ -16,8 +16,6 @@
 		720DA5811A68A00900DD05AF /* CocoaMarkdown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729F53FB1A68649200CC7448 /* CocoaMarkdown.framework */; };
 		720DA5821A68A01600DD05AF /* CocoaMarkdown.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 729F53FB1A68649200CC7448 /* CocoaMarkdown.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		722694BC1A687B4100E1D3DC /* test.md in Resources */ = {isa = PBXBuildFile; fileRef = 72FE7F171A686AC300F23F46 /* test.md */; };
-		722694BD1A687BD400E1D3DC /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729F54981A68663400CC7448 /* Nimble.framework */; };
-		722694BE1A687BD800E1D3DC /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729F54A21A68663400CC7448 /* Quick.framework */; };
 		722E33E01A68E7E4004DE919 /* CMAttributeRun.h in Headers */ = {isa = PBXBuildFile; fileRef = 722E33DE1A68E7E4004DE919 /* CMAttributeRun.h */; };
 		722E33E11A68E7E4004DE919 /* CMAttributeRun.h in Headers */ = {isa = PBXBuildFile; fileRef = 722E33DE1A68E7E4004DE919 /* CMAttributeRun.h */; };
 		722E33E21A68E7E4004DE919 /* CMAttributeRun.m in Sources */ = {isa = PBXBuildFile; fileRef = 722E33DF1A68E7E4004DE919 /* CMAttributeRun.m */; };
@@ -132,20 +130,6 @@
 		729F54371A6864F400CC7448 /* CMParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 729F541E1A6864F400CC7448 /* CMParser.m */; };
 		729F54381A6864F400CC7448 /* CMPlatformDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 729F541F1A6864F400CC7448 /* CMPlatformDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		729F54391A6864F400CC7448 /* CMPlatformDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 729F541F1A6864F400CC7448 /* CMPlatformDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		729F54AD1A68664E00CC7448 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729F54A21A68663400CC7448 /* Quick.framework */; };
-		729F54AE1A68665200CC7448 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729F54941A68663400CC7448 /* Nimble.framework */; };
-		729F54B21A6866C200CC7448 /* DummySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729F54B11A6866C200CC7448 /* DummySpec.swift */; };
-		729F54B31A6866C200CC7448 /* DummySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729F54B11A6866C200CC7448 /* DummySpec.swift */; };
-		729F54BD1A68673800CC7448 /* CMDocumentSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 729F54B71A68673800CC7448 /* CMDocumentSpec.m */; };
-		729F54BE1A68673800CC7448 /* CMDocumentSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 729F54B71A68673800CC7448 /* CMDocumentSpec.m */; };
-		729F54BF1A68673800CC7448 /* CMIteratorSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 729F54B81A68673800CC7448 /* CMIteratorSpec.m */; };
-		729F54C01A68673800CC7448 /* CMIteratorSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 729F54B81A68673800CC7448 /* CMIteratorSpec.m */; };
-		729F54C11A68673800CC7448 /* CMNodeSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 729F54B91A68673800CC7448 /* CMNodeSpec.m */; };
-		729F54C21A68673800CC7448 /* CMNodeSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 729F54B91A68673800CC7448 /* CMNodeSpec.m */; };
-		729F54C31A68673800CC7448 /* CMParserSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 729F54BA1A68673800CC7448 /* CMParserSpec.m */; };
-		729F54C41A68673800CC7448 /* CMParserSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 729F54BA1A68673800CC7448 /* CMParserSpec.m */; };
-		729F54C51A68673800CC7448 /* CMParserTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 729F54BC1A68673800CC7448 /* CMParserTestObject.m */; };
-		729F54C61A68673800CC7448 /* CMParserTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 729F54BC1A68673800CC7448 /* CMParserTestObject.m */; };
 		72C17A811A6EB75800212F17 /* CMDocument+AttributedStringAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 72C17A7F1A6EB75800212F17 /* CMDocument+AttributedStringAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72C17A821A6EB75800212F17 /* CMDocument+AttributedStringAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 72C17A7F1A6EB75800212F17 /* CMDocument+AttributedStringAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72C17A831A6EB75800212F17 /* CMDocument+AttributedStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C17A801A6EB75800212F17 /* CMDocument+AttributedStringAdditions.m */; };
@@ -158,10 +142,6 @@
 		72C17A9A1A6EBD7800212F17 /* CMDocument+HTMLAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 72C17A971A6EBD7800212F17 /* CMDocument+HTMLAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72C17A9B1A6EBD7800212F17 /* CMDocument+HTMLAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C17A981A6EBD7800212F17 /* CMDocument+HTMLAdditions.m */; };
 		72C17A9C1A6EBD7800212F17 /* CMDocument+HTMLAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C17A981A6EBD7800212F17 /* CMDocument+HTMLAdditions.m */; };
-		72C17A9E1A6EBE5600212F17 /* CMHTMLRendererSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C17A9D1A6EBE5600212F17 /* CMHTMLRendererSpec.m */; };
-		72C17A9F1A6EBE5600212F17 /* CMHTMLRendererSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C17A9D1A6EBE5600212F17 /* CMHTMLRendererSpec.m */; };
-		72FE7E9B1A68684000F23F46 /* test.md in Resources */ = {isa = PBXBuildFile; fileRef = 72FE7E981A68683300F23F46 /* test.md */; };
-		72FE7E9C1A68684700F23F46 /* test.md in Resources */ = {isa = PBXBuildFile; fileRef = 72FE7E981A68683300F23F46 /* test.md */; };
 		72FE7ECE1A68692400F23F46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FE7ECD1A68692400F23F46 /* AppDelegate.swift */; };
 		72FE7ED01A68692400F23F46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FE7ECF1A68692400F23F46 /* ViewController.swift */; };
 		72FE7ED31A68692400F23F46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72FE7ED11A68692400F23F46 /* Main.storyboard */; };
@@ -196,76 +176,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 729F53FA1A68649200CC7448;
 			remoteInfo = CocoaMarkdown;
-		};
-		729F54931A68663400CC7448 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 729F54891A68663300CC7448 /* Nimble.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1F1A74291940169200FFFC47;
-			remoteInfo = "Nimble-iOS";
-		};
-		729F54951A68663400CC7448 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 729F54891A68663300CC7448 /* Nimble.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1F1A74341940169200FFFC47;
-			remoteInfo = "Nimble-iOSTests";
-		};
-		729F54971A68663400CC7448 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 729F54891A68663300CC7448 /* Nimble.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1F925EAD195C0D6300ED456B;
-			remoteInfo = "Nimble-OSX";
-		};
-		729F54991A68663400CC7448 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 729F54891A68663300CC7448 /* Nimble.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1F925EB7195C0D6300ED456B;
-			remoteInfo = "Nimble-OSXTests";
-		};
-		729F54A11A68663400CC7448 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 729F548C1A68663400CC7448 /* Quick.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DAEB6B8E1943873100289F44;
-			remoteInfo = "Quick-OSX";
-		};
-		729F54A31A68663400CC7448 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 729F548C1A68663400CC7448 /* Quick.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DAEB6B991943873100289F44;
-			remoteInfo = "Quick-OSXTests";
-		};
-		729F54A51A68663400CC7448 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 729F548C1A68663400CC7448 /* Quick.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DA5663E81A4C8D8500193C88;
-			remoteInfo = "QuickFocused-OSXTests";
-		};
-		729F54A71A68663400CC7448 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 729F548C1A68663400CC7448 /* Quick.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5A5D117C19473F2100F6D13D;
-			remoteInfo = "Quick-iOS";
-		};
-		729F54A91A68663400CC7448 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 729F548C1A68663400CC7448 /* Quick.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5A5D118619473F2100F6D13D;
-			remoteInfo = "Quick-iOSTests";
-		};
-		729F54AB1A68663400CC7448 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 729F548C1A68663400CC7448 /* Quick.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DA9876B21A4C70EB0004AA17;
-			remoteInfo = "QuickFocused-iOSTests";
 		};
 		72FE7EEB1A68693200F23F46 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -353,7 +263,6 @@
 		729F53DE1A68641400CC7448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		729F53DF1A68641400CC7448 /* CocoaMarkdown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaMarkdown.h; sourceTree = "<group>"; };
 		729F53E51A68641400CC7448 /* CocoaMarkdownTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CocoaMarkdownTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		729F53EB1A68641400CC7448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		729F53FB1A68649200CC7448 /* CocoaMarkdown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaMarkdown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		729F54051A68649200CC7448 /* CocoaMarkdownTests-Mac.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CocoaMarkdownTests-Mac.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		729F54141A6864F400CC7448 /* CMAttributedStringRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAttributedStringRenderer.h; sourceTree = "<group>"; };
@@ -368,24 +277,12 @@
 		729F541D1A6864F400CC7448 /* CMParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMParser.h; sourceTree = "<group>"; };
 		729F541E1A6864F400CC7448 /* CMParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMParser.m; sourceTree = "<group>"; };
 		729F541F1A6864F400CC7448 /* CMPlatformDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMPlatformDefines.h; sourceTree = "<group>"; };
-		729F54891A68663300CC7448 /* Nimble.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Nimble.xcodeproj; path = External/Nimble/Nimble.xcodeproj; sourceTree = SOURCE_ROOT; };
-		729F548C1A68663400CC7448 /* Quick.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Quick.xcodeproj; path = External/Quick/Quick.xcodeproj; sourceTree = SOURCE_ROOT; };
-		729F54B11A6866C200CC7448 /* DummySpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DummySpec.swift; sourceTree = "<group>"; };
-		729F54B41A6866E200CC7448 /* CocoaMarkdownTests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CocoaMarkdownTests-Bridging-Header.h"; sourceTree = "<group>"; };
-		729F54B71A68673800CC7448 /* CMDocumentSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDocumentSpec.m; sourceTree = "<group>"; };
-		729F54B81A68673800CC7448 /* CMIteratorSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMIteratorSpec.m; sourceTree = "<group>"; };
-		729F54B91A68673800CC7448 /* CMNodeSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMNodeSpec.m; sourceTree = "<group>"; };
-		729F54BA1A68673800CC7448 /* CMParserSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMParserSpec.m; sourceTree = "<group>"; };
-		729F54BB1A68673800CC7448 /* CMParserTestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMParserTestObject.h; sourceTree = "<group>"; };
-		729F54BC1A68673800CC7448 /* CMParserTestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMParserTestObject.m; sourceTree = "<group>"; };
 		72C17A7F1A6EB75800212F17 /* CMDocument+AttributedStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CMDocument+AttributedStringAdditions.h"; sourceTree = "<group>"; };
 		72C17A801A6EB75800212F17 /* CMDocument+AttributedStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CMDocument+AttributedStringAdditions.m"; sourceTree = "<group>"; };
 		72C17A911A6EBA3300212F17 /* CMHTMLRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMHTMLRenderer.h; sourceTree = "<group>"; };
 		72C17A921A6EBA3300212F17 /* CMHTMLRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMHTMLRenderer.m; sourceTree = "<group>"; };
 		72C17A971A6EBD7800212F17 /* CMDocument+HTMLAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CMDocument+HTMLAdditions.h"; sourceTree = "<group>"; };
 		72C17A981A6EBD7800212F17 /* CMDocument+HTMLAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CMDocument+HTMLAdditions.m"; sourceTree = "<group>"; };
-		72C17A9D1A6EBE5600212F17 /* CMHTMLRendererSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMHTMLRendererSpec.m; sourceTree = "<group>"; };
-		72FE7E981A68683300F23F46 /* test.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = test.md; sourceTree = "<group>"; };
 		72FE7EC91A68692400F23F46 /* Example-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Example-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72FE7ECC1A68692400F23F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72FE7ECD1A68692400F23F46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -414,8 +311,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				729F54AE1A68665200CC7448 /* Nimble.framework in Frameworks */,
-				729F54AD1A68664E00CC7448 /* Quick.framework in Frameworks */,
 				729F53E61A68641400CC7448 /* CocoaMarkdown.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,8 +327,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				722694BE1A687BD800E1D3DC /* Quick.framework in Frameworks */,
-				722694BD1A687BD400E1D3DC /* Nimble.framework in Frameworks */,
 				729F54061A68649200CC7448 /* CocoaMarkdown.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -578,28 +471,8 @@
 		729F53E91A68641400CC7448 /* CocoaMarkdownTests */ = {
 			isa = PBXGroup;
 			children = (
-				729F54B71A68673800CC7448 /* CMDocumentSpec.m */,
-				729F54B81A68673800CC7448 /* CMIteratorSpec.m */,
-				729F54B91A68673800CC7448 /* CMNodeSpec.m */,
-				729F54BA1A68673800CC7448 /* CMParserSpec.m */,
-				729F54BB1A68673800CC7448 /* CMParserTestObject.h */,
-				729F54BC1A68673800CC7448 /* CMParserTestObject.m */,
-				72C17A9D1A6EBE5600212F17 /* CMHTMLRendererSpec.m */,
-				72FE7E971A68683300F23F46 /* Resources */,
-				729F54781A6865D300CC7448 /* Frameworks */,
-				729F53EA1A68641400CC7448 /* Supporting Files */,
 			);
 			path = CocoaMarkdownTests;
-			sourceTree = "<group>";
-		};
-		729F53EA1A68641400CC7448 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				729F54B11A6866C200CC7448 /* DummySpec.swift */,
-				729F54B41A6866E200CC7448 /* CocoaMarkdownTests-Bridging-Header.h */,
-				729F53EB1A68641400CC7448 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		729F543E1A68650000CC7448 /* CommonMark */ = {
@@ -624,39 +497,6 @@
 				725A5FEA1AEC5F9F00D6342C /* xml.c */,
 			);
 			name = CommonMark;
-			sourceTree = "<group>";
-		};
-		729F54781A6865D300CC7448 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				729F54891A68663300CC7448 /* Nimble.xcodeproj */,
-				729F548C1A68663400CC7448 /* Quick.xcodeproj */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		729F548A1A68663300CC7448 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				729F54941A68663400CC7448 /* Nimble.framework */,
-				729F54961A68663400CC7448 /* NimbleTests.xctest */,
-				729F54981A68663400CC7448 /* Nimble.framework */,
-				729F549A1A68663400CC7448 /* NimbleTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		729F548D1A68663400CC7448 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				729F54A21A68663400CC7448 /* Quick.framework */,
-				729F54A41A68663400CC7448 /* Quick-OSXTests.xctest */,
-				729F54A61A68663400CC7448 /* QuickFocused-OSXTests.xctest */,
-				729F54A81A68663400CC7448 /* Quick.framework */,
-				729F54AA1A68663400CC7448 /* Quick-iOSTests.xctest */,
-				729F54AC1A68663400CC7448 /* QuickFocused-iOSTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		72C17A8F1A6EB9AB00212F17 /* CommonMark */ = {
@@ -685,14 +525,6 @@
 				72C17A981A6EBD7800212F17 /* CMDocument+HTMLAdditions.m */,
 			);
 			name = HTML;
-			sourceTree = "<group>";
-		};
-		72FE7E971A68683300F23F46 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				72FE7E981A68683300F23F46 /* test.md */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		72FE7ECA1A68692400F23F46 /* Example-iOS */ = {
@@ -969,16 +801,6 @@
 			mainGroup = 729F53D01A68641300CC7448;
 			productRefGroup = 729F53DB1A68641400CC7448 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 729F548A1A68663300CC7448 /* Products */;
-					ProjectRef = 729F54891A68663300CC7448 /* Nimble.xcodeproj */;
-				},
-				{
-					ProductGroup = 729F548D1A68663400CC7448 /* Products */;
-					ProjectRef = 729F548C1A68663400CC7448 /* Quick.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				729F53D91A68641400CC7448 /* CocoaMarkdown-iOS */,
@@ -990,79 +812,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		729F54941A68663400CC7448 /* Nimble.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Nimble.framework;
-			remoteRef = 729F54931A68663400CC7448 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		729F54961A68663400CC7448 /* NimbleTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = NimbleTests.xctest;
-			remoteRef = 729F54951A68663400CC7448 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		729F54981A68663400CC7448 /* Nimble.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Nimble.framework;
-			remoteRef = 729F54971A68663400CC7448 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		729F549A1A68663400CC7448 /* NimbleTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = NimbleTests.xctest;
-			remoteRef = 729F54991A68663400CC7448 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		729F54A21A68663400CC7448 /* Quick.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Quick.framework;
-			remoteRef = 729F54A11A68663400CC7448 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		729F54A41A68663400CC7448 /* Quick-OSXTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Quick-OSXTests.xctest";
-			remoteRef = 729F54A31A68663400CC7448 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		729F54A61A68663400CC7448 /* QuickFocused-OSXTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "QuickFocused-OSXTests.xctest";
-			remoteRef = 729F54A51A68663400CC7448 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		729F54A81A68663400CC7448 /* Quick.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Quick.framework;
-			remoteRef = 729F54A71A68663400CC7448 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		729F54AA1A68663400CC7448 /* Quick-iOSTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Quick-iOSTests.xctest";
-			remoteRef = 729F54A91A68663400CC7448 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		729F54AC1A68663400CC7448 /* QuickFocused-iOSTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "QuickFocused-iOSTests.xctest";
-			remoteRef = 729F54AB1A68663400CC7448 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		729F53D81A68641400CC7448 /* Resources */ = {
@@ -1076,7 +825,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72FE7E9C1A68684700F23F46 /* test.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1091,7 +839,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72FE7E9B1A68684000F23F46 /* test.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1167,13 +914,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				729F54C11A68673800CC7448 /* CMNodeSpec.m in Sources */,
-				729F54C51A68673800CC7448 /* CMParserTestObject.m in Sources */,
-				72C17A9E1A6EBE5600212F17 /* CMHTMLRendererSpec.m in Sources */,
-				729F54BF1A68673800CC7448 /* CMIteratorSpec.m in Sources */,
-				729F54C31A68673800CC7448 /* CMParserSpec.m in Sources */,
-				729F54B21A6866C200CC7448 /* DummySpec.swift in Sources */,
-				729F54BD1A68673800CC7448 /* CMDocumentSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1225,13 +965,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				729F54C21A68673800CC7448 /* CMNodeSpec.m in Sources */,
-				729F54C61A68673800CC7448 /* CMParserTestObject.m in Sources */,
-				72C17A9F1A6EBE5600212F17 /* CMHTMLRendererSpec.m in Sources */,
-				729F54C01A68673800CC7448 /* CMIteratorSpec.m in Sources */,
-				729F54C41A68673800CC7448 /* CMParserSpec.m in Sources */,
-				729F54B31A6866C200CC7448 /* DummySpec.swift in Sources */,
-				729F54BE1A68673800CC7448 /* CMDocumentSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
